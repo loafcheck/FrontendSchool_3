@@ -2,7 +2,7 @@
 
 | Week    |Date                |Curriculum  | Current Status | Finished | 
 |---------|--------------------|---------------|----------------|-----------|
-| week 14 | 22.11.28 ~ 22.12.02|                | in progress | - [x] ok?
+| week 14 | 22.11.28 ~ 22.12.02| [a link](https://github.com/user/repo/blob/branch/other_file.md)               | in progress | - [x] ok?
 | week 15 | 22.12.05 ~ 22.12.09|  | in progress | [x] item1<br/>[ ] item2
 | week 16 | 22.12.12 ~ 22.12.16|  | in progress | <ul><li>- [x] item1</li><li>- [ ] item2</li></ul>
 | week 17 | 22.12.19 ~ 22.12.23|  | in progress | <ul><li>[x] item1</li><li>[ ] item2</li></ul>
