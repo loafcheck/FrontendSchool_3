@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="txt">숫자 입력: </label>
+        <input type="text" id="txt">
+        <button>submit</button>
+    </form>
+
+    <script>
+       const inp = document.querySelector('input');
+    //    인자로 경고창에 띄울 문자열을 넘겨줄 수 있음, 하지만 Input 창이 빈 공백이여도 제출하면 에러메세지가 뜸
+       inp.setCustomValidity('문제가 있어요, 알수 없는 무엇인가');
+    //    빈 문자열을 넣으면 에러를 없앨 수 있다.
+       inp.setCustomValidty('') 
+    </script>
+</body>
+</html>
